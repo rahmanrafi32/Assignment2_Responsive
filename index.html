@@ -1,279 +1,407 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Panguin Fashoin</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-    crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/style.css">
-  <title>Panguin Fashoin</title>
-</head>
-
-<body>
-  <header>
-    <!--Navbar-->
-    <section>
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"><img src="logo/Group 33072.png" alt="logo" width="50%" ml></a>
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto font-weight-bold">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#women">Women Wear</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#men">Men Wear</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#exclusive">Offer</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#">About Us</a>
-            </li>
-          </ul>
+  <body>
+    <header>
+      <!--Navbar-->
+      <section>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#"
+            ><img src="Logo/Group 33072.png" alt="logo" width="50%" ml
+          /></a>
+          <button
+            class="navbar-toggler ml-auto"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto font-weight-bold">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#women">Women Wear</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#men">Men Wear</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#exclusive">Offer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </section>
+      <!--Navbar End-->
+      <!--Top Banner-->
+      <section
+        class="d-flex justify-content-between align-items-center m-auto row g-5 container"
+      >
+        <div>
+          <h1 class="text-uppercase font-weight-bold font-colors">
+            Be the Penguins <br /><span style="color: #000065">of winter</span>
+          </h1>
+          <h6 class="mt-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+            dolores.
+          </h6>
+          <button type="button" class="btn button-color btn-lg mt-3">
+            <i class="fas fa-shopping-cart"></i> Buy Now
+          </button>
         </div>
-      </nav>
-    </section>
-    <!--Navbar End-->
-    <!--Top Banner-->
-    <section class="d-flex justify-content-between align-items-center m-auto row g-5 container">
-      <div>
-        <h1 class=" text-uppercase font-weight-bold font-colors">Be the Penguins <br><span style="color: #000065;">of
-            winter</span></h1>
-        <h6 class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dolores.</h6>
-        <button type="button" class="btn button-color btn-lg mt-3"><i class="fas fa-shopping-cart"></i> Buy Now</button>
-      </div>
-      <div class="top-banner-pic">
-        <img src="Image/logo.svg" alt="image">
-      </div>
-    </section>
-    <!--Top Banner End-->
-  </header>
-  <!--Women's Section-->
-  <main class="container">
-    <section class="mt-5" id="women">
-      <h1 class="text-uppercase" style="color: #000065;">Woman jacket</h1>
-    </section>
-    <section>
-      <div class="card-deck mt-5 gy-5">
-        <div class="card shadow p-3 mb-5 bg-white">
-          <img class="card-img-top product-image" src="image/jack 1.svg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Yellow Coat Jacket</h5>
-            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti ullam cum maiores!
-              Dolore quis corporis nobis animi ad possimus officia.</p>
-          </div>
-          <div class="card-footer footer-background d-flex justify-content-between alighn-items-center">
-            <h3 class="price-color">$234</h3>
-            <a href="" class="btn button-color btn-lg"><i class="fas fa-shopping-cart"></i> Buy Now</a>
-          </div>
+        <div class="top-banner-pic">
+          <img src="Image/logo.svg" alt="image" />
         </div>
-        <div class="card shadow p-3 mb-5 bg-white">
-          <img class="card-img-top product-image" src="image/jack 2.svg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Ladies Jacket</h5>
-            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt similique facere,
-              quod ullam eius sunt. Enim fugit earum distinctio accusamus?</p>
-          </div>
-          <div class="card-footer footer-background d-flex justify-content-between alighn-items-center">
-            <h3 class="price-color">$234</h3>
-            <a href="" class="btn button-color btn-lg"><i class="fas fa-shopping-cart"></i> Buy Now</a>
-          </div>
-        </div>
-        <div class="card shadow p-3 mb-5 bg-white">
-          <img class="card-img-top product-image" src="image/jack 3.svg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Woman Leather Jacket</h5>
-            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, harum asperiores.
-              Dolore modi est deserunt quis perferendis alias quod eligendi!</p>
-          </div>
-          <div class="card-footer footer-background d-flex justify-content-between alighn-items-center">
-            <h3 class="price-color">$234</h3>
-            <a href="" class="btn button-color btn-lg"><i class="fas fa-shopping-cart"></i> Buy Now</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End of Women's Section-->
-    <!--Men's Section-->
-    <section class="mt-5" id="men">
-      <h1 class="text-uppercase" style="color: #000065;">Man jacket</h1>
-    </section>
-    <section>
-      <div class="card-deck mt-5 g-5">
-        <div class="card shadow p-3 mb-5 bg-white">
-          <img class="card-img-top product-image" src="image/m1.svg" alt="Card image cap">
-          <div class="card-body rounded">
-            <h5 class="card-title">Snowboard Jacket Mens</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque perferendis placeat
-              unde non molestiae a beatae voluptatum accusamus ex ducimus!</p>
-          </div>
-          <div class="card-footer footer-background d-flex justify-content-between alighn-items-center">
-            <h3 class="price-color">$234</h3>
-            <a href="" class="btn button-color btn-lg"><i class="fas fa-shopping-cart"></i> Buy Now</a>
-          </div>
-        </div>
-        <div class="card shadow p-3 mb-5 bg-white">
-          <img class="card-img-top product-image" src="image/m2'.svg" alt="Card image cap">
-          <div class="card-body rounded">
-            <h5 class="card-title">Man Leather Jackets</h5>
-            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus minima nobis eius nihil
-              quod iure magni quas ea, quidem est.</p>
-          </div>
-          <div class="card-footer footer-background d-flex justify-content-between alighn-items-center">
-            <h3 class="price-color">$234</h3>
-            <a href="" class="btn button-color btn-lg"><i class="fas fa-shopping-cart"></i> Buy Now</a>
-          </div>
-        </div>
-        <div class="card shadow p-3 mb-5 bg-white ">
-          <img class="card-img-top product-image " src="image/toppng 1.svg" alt="Card image cap">
-          <div class="card-body rounded">
-            <h5 class="card-title">Man Casual Jackets</h5>
-            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam ipsum saepe nemo
-              repellat, excepturi nihil placeat perspiciatis atque temporibus veritatis.</p>
-          </div>
-          <div class="card-footer footer-background d-flex justify-content-between alighn-items-center">
-            <h3 class="price-color">$234</h3>
-            <a href="" class="btn button-color btn-lg"><i class="fas fa-shopping-cart"></i> Buy Now</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--End of Men's Section-->
-    <!--Bottom Banner Section-->
-    <section class="mt-5">
-      <div class="row bottom-banner">
-        <div class="col-md-5">
-          <div class="d-flex justify-content-center align-items-center shadow-sm rounded mt-3">
-            <div>
-              <img src="logo/image 12.png" alt="" width="50%">
+      </section>
+      <!--Top Banner End-->
+    </header>
+    <!--Women's Section-->
+    <main class="container">
+      <section class="mt-5" id="women">
+        <h1 class="text-uppercase" style="color: #000065">Woman jacket</h1>
+      </section>
+      <section>
+        <div class="card-deck mt-5 gy-5">
+          <div class="card shadow p-3 mb-5 bg-white">
+            <img
+              class="card-img-top product-image"
+              src="Image/jack 1.svg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Yellow Coat Jacket</h5>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Corrupti ullam cum maiores! Dolore quis corporis nobis animi ad
+                possimus officia.
+              </p>
             </div>
-            <div>
-              <h5 class="font-weight-bold">Find the Perfect Fit</h5>
-              <p>Everybody is different, which is why we
-
-                offer styles for every body.</p>
+            <div
+              class="card-footer footer-background d-flex justify-content-between alighn-items-center"
+            >
+              <h3 class="price-color">$234</h3>
+              <a href="" class="btn button-color btn-lg"
+                ><i class="fas fa-shopping-cart"></i> Buy Now</a
+              >
             </div>
           </div>
-          <div class="d-flex justify-content-center align-items-center shadow-sm rounded  mt-3">
-            <div>
-              <img src="logo/image 13.png" alt="" width="50%">
+          <div class="card shadow p-3 mb-5 bg-white">
+            <img
+              class="card-img-top product-image"
+              src="Image/jack 2.svg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ladies Jacket</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Nesciunt similique facere, quod ullam eius sunt. Enim fugit
+                earum distinctio accusamus?
+              </p>
             </div>
-            <div>
-              <h5 class="font-weight-bold">Free Exchanges</h5>
-              <p>One of the many reasons you can shop
-
-                with peace of mind.</p>
+            <div
+              class="card-footer footer-background d-flex justify-content-between alighn-items-center"
+            >
+              <h3 class="price-color">$234</h3>
+              <a href="" class="btn button-color btn-lg"
+                ><i class="fas fa-shopping-cart"></i> Buy Now</a
+              >
             </div>
           </div>
-          <div class="d-flex justify-content-center align-items-center shadow-sm rounded  mt-3">
-            <div>
-              <img src="logo/image 14.png" alt="" width="50%">
+          <div class="card shadow p-3 mb-5 bg-white">
+            <img
+              class="card-img-top product-image"
+              src="Image/jack 3.svg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Woman Leather Jacket</h5>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse,
+                harum asperiores. Dolore modi est deserunt quis perferendis
+                alias quod eligendi!
+              </p>
             </div>
-            <div>
-              <h5 class="font-weight-bold">Contact Our Seller</h5>
-              <p>They are here to help you. That's quite
-                literally what we pay them for.</p>
+            <div
+              class="card-footer footer-background d-flex justify-content-between alighn-items-center"
+            >
+              <h3 class="price-color">$234</h3>
+              <a href="" class="btn button-color btn-lg"
+                ><i class="fas fa-shopping-cart"></i> Buy Now</a
+              >
             </div>
           </div>
         </div>
-        <div class="col-sm-7 align-items-center">
-          <img src="logo/XMLID 1.png" alt="" width="85%">
+      </section>
+      <!-- End of Women's Section-->
+      <!--Men's Section-->
+      <section class="mt-5" id="men">
+        <h1 class="text-uppercase" style="color: #000065">Man jacket</h1>
+      </section>
+      <section>
+        <div class="card-deck mt-5 g-5">
+          <div class="card shadow p-3 mb-5 bg-white">
+            <img
+              class="card-img-top product-image"
+              src="Image/m1.svg"
+              alt="Card image cap"
+            />
+            <div class="card-body rounded">
+              <h5 class="card-title">Snowboard Jacket Mens</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
+                perferendis placeat unde non molestiae a beatae voluptatum
+                accusamus ex ducimus!
+              </p>
+            </div>
+            <div
+              class="card-footer footer-background d-flex justify-content-between alighn-items-center"
+            >
+              <h3 class="price-color">$234</h3>
+              <a href="" class="btn button-color btn-lg"
+                ><i class="fas fa-shopping-cart"></i> Buy Now</a
+              >
+            </div>
+          </div>
+          <div class="card shadow p-3 mb-5 bg-white">
+            <img
+              class="card-img-top product-image"
+              src="Image/m2'.svg"
+              alt="Card image cap"
+            />
+            <div class="card-body rounded">
+              <h5 class="card-title">Man Leather Jackets</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus
+                minima nobis eius nihil quod iure magni quas ea, quidem est.
+              </p>
+            </div>
+            <div
+              class="card-footer footer-background d-flex justify-content-between alighn-items-center"
+            >
+              <h3 class="price-color">$234</h3>
+              <a href="" class="btn button-color btn-lg"
+                ><i class="fas fa-shopping-cart"></i> Buy Now</a
+              >
+            </div>
+          </div>
+          <div class="card shadow p-3 mb-5 bg-white">
+            <img
+              class="card-img-top product-image"
+              src="Image/toppng 1.svg"
+              alt="Card image cap"
+            />
+            <div class="card-body rounded">
+              <h5 class="card-title">Man Casual Jackets</h5>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam
+                ipsum saepe nemo repellat, excepturi nihil placeat perspiciatis
+                atque temporibus veritatis.
+              </p>
+            </div>
+            <div
+              class="card-footer footer-background d-flex justify-content-between alighn-items-center"
+            >
+              <h3 class="price-color">$234</h3>
+              <a href="" class="btn button-color btn-lg"
+                ><i class="fas fa-shopping-cart"></i> Buy Now</a
+              >
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
-    <!--BottomBanner End-->
-    <!--Exclusic section-->
-    <section id="exclusive">
-      <h1 class="mt-5" style="color: #000065;">Exclusive Jackets</h1>
-    </section>
-    <section class="exclusive-banner">
-      <div id="carouselExampleControls" class="carousel slide mt-5" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row align-items-center">
-              <div class="col-md-5">
-                <h2 class="mb-5">Special Blue Jacket</h2>
-                <h3 class="price-color">$234</h3>
-                <button type="button" class="btn button-color btn-lg"><i class="fas fa-shopping-cart"></i> Buy
-                  Now</button>
+      </section>
+      <!--End of Men's Section-->
+      <!--Bottom Banner Section-->
+      <section class="mt-5">
+        <div class="row bottom-banner">
+          <div class="col-md-5">
+            <div
+              class="d-flex justify-content-center align-items-center shadow-sm rounded mt-3"
+            >
+              <div>
+                <img src="Logo/image 12.png" alt="" width="50%" />
               </div>
-              <div class="col-md-7">
-                <img src="image/Special (1).svg" alt="">
+              <div>
+                <h5 class="font-weight-bold">Find the Perfect Fit</h5>
+                <p>
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
+              </div>
+            </div>
+            <div
+              class="d-flex justify-content-center align-items-center shadow-sm rounded mt-3"
+            >
+              <div>
+                <img src="Logo/image 13.png" alt="" width="50%" />
+              </div>
+              <div>
+                <h5 class="font-weight-bold">Free Exchanges</h5>
+                <p>One of the many reasons you can shop with peace of mind.</p>
+              </div>
+            </div>
+            <div
+              class="d-flex justify-content-center align-items-center shadow-sm rounded mt-3"
+            >
+              <div>
+                <img src="Logo/image 14.png" alt="" width="50%" />
+              </div>
+              <div>
+                <h5 class="font-weight-bold">Contact Our Seller</h5>
+                <p>
+                  They are here to help you. That's quite literally what we pay
+                  them for.
+                </p>
               </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="row align-items-center">
-              <div class="col-md-5">
-                <h2 class="mb-5">Stylish Black Jacket</h2>
-                <h3 class="price-color">$234</h3>
-                <button type="button" class="btn button-color btn-lg"><i class="fas fa-shopping-cart"></i> Buy
-                  Now</button>
-              </div>
-              <div class="col-md-7">
-                <img src="image/Special (1) (1).svg" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row align-items-center">
-              <div class="col-md-5">
-                <h2 class="mb-5">Very Warm Red Jacket</h2>
-                <h3 class="price-color">$234</h3>
-                <button type="button" class="btn button-color btn-lg"><i class="fas fa-shopping-cart"></i> Buy
-                  Now</button>
-              </div>
-              <div class="col-md-7">
-                <img src="image/Special (1) (2).svg" alt="">
-              </div>
-            </div>
+          <div class="col-sm-7 align-items-center">
+            <img src="Logo/XMLID 1.png" alt="" width="85%" />
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </section>
-    <!--Exclusive section end-->
-    <section style="height: 500px; background-color:#F0FFFF"
-      class="d-flex justify-content-center align-items-center mt-5" id="Subscribe">
-      <div>
-        <h1>Contact With Us</h1>
-        <h5 class="mt-3">Get updates on sale, special and more</h5>
-        <input class="mt-3" type="email" name="email" id="email" placeholder="enter your email here" />
-        <button type="button" class="btn btn-primary btn-sm">Submit</button>
-      </div>
-    </section>
-  </main>
-  <!--Footer-->
-  <footer style="text-align: center; margin-top: 20px">
-    <small>Copyrights © Md Minhazur Rahman| 2021 | All Rights Reserved</small>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-</body>
-
+      </section>
+      <!--BottomBanner End-->
+      <!--Exclusic section-->
+      <section id="exclusive">
+        <h1 class="mt-5" style="color: #000065">Exclusive Jackets</h1>
+      </section>
+      <section class="exclusive-banner">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide mt-5"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row align-items-center">
+                <div class="col-md-5">
+                  <h2 class="mb-5">Special Blue Jacket</h2>
+                  <h3 class="price-color">$234</h3>
+                  <button type="button" class="btn button-color btn-lg">
+                    <i class="fas fa-shopping-cart"></i> Buy Now
+                  </button>
+                </div>
+                <div class="col-md-7">
+                  <img src="Image/Special (1).svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row align-items-center">
+                <div class="col-md-5">
+                  <h2 class="mb-5">Stylish Black Jacket</h2>
+                  <h3 class="price-color">$234</h3>
+                  <button type="button" class="btn button-color btn-lg">
+                    <i class="fas fa-shopping-cart"></i> Buy Now
+                  </button>
+                </div>
+                <div class="col-md-7">
+                  <img src="Image/Special (1) (1).svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row align-items-center">
+                <div class="col-md-5">
+                  <h2 class="mb-5">Very Warm Red Jacket</h2>
+                  <h3 class="price-color">$234</h3>
+                  <button type="button" class="btn button-color btn-lg">
+                    <i class="fas fa-shopping-cart"></i> Buy Now
+                  </button>
+                </div>
+                <div class="col-md-7">
+                  <img src="Image/Special (1) (2).svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+      <!--Exclusive section end-->
+      <section
+        style="height: 500px; background-color: #f0ffff"
+        class="d-flex justify-content-center align-items-center mt-5"
+        id="Subscribe"
+      >
+        <div>
+          <h1>Contact With Us</h1>
+          <h5 class="mt-3">Get updates on sale, special and more</h5>
+          <input
+            class="mt-3"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="enter your email here"
+          />
+          <button type="button" class="btn btn-primary btn-sm">Submit</button>
+        </div>
+      </section>
+    </main>
+    <!--Footer-->
+    <footer style="text-align: center; margin-top: 20px">
+      <small>Copyrights © Md Minhazur Rahman| 2021 | All Rights Reserved</small>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
