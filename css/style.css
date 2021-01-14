@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 100%;
+
+	background-image: linear-gradient(to bottom, #ffe3e3, white);
+}
+
+.product-image {
+	border-radius: 10%;
+	background-color: #f8f8f8;
+}
+
+.footer-background {
+	border: 0;
+	background-color: #fff;
+}
+
+.button-color {
+	background-image: linear-gradient(to top, ForestGreen, OliveDrab);
+	color: #fff;
+}
+
+.price-color, .font-colors {
+	color: goldenrod;
+}
+
+
+@media (max-width: 760px) {
+	.bottom-banner {
+		flex-direction: column-reverse;
+	}
+	.columns{
+		display: flex;
+	}
+}
